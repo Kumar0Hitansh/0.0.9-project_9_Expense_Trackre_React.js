@@ -1,0 +1,54 @@
+.new-expence {
+  background-color: #abc4aa;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 95%;
+  border-radius: 13px;
+  padding: 8px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+}
+
+.new-expense__controles .new-expense__control input {
+  border: 1px solid #fcf9ed;
+  background-color: #f3deba;
+
+  font-weight: bolder;
+
+  border-radius: 5px;
+}
+
+.new-expense__controles .new-expense__control input:focus {
+  background-color: #fcf9ed;
+  border-color: #abc4aa;
+  outline: none;
+}
+
+.new-expence button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #fcf9ed;
+  background-color: #f3deba;
+  color: black;
+  border-radius: 5px;
+  margin-right: 1rem;
+  font-weight: bolder;
+}
+.new-expence button:hover,
+.new-expence button :active {
+  background-color: #fcf9ed;
+  border-color: #abc4aa;
+}
+
+.new-expence button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-expence button.alternative:hover,
+.new-expence button.alternative:active {
+  background-color: #ddb3f8;
+}
